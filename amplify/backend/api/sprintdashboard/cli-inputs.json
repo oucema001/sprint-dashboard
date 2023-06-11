@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authsprintdashboard34543847"
+    },
+    "conflictResolution": {},
+    "apiName": "sprintdashboard",
+    "additionalAuthTypes": []
+  }
+}

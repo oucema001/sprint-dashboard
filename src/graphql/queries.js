@@ -97,44 +97,6 @@ export const listSprints = /* GraphQL */ `
           updatedAt
         }
         tickets {
-          items {
-            id
-            sprintId
-            ticketId
-            createdAt
-            updatedAt
-            ticket {
-              assignee {
-                verified
-                updatedAt
-                lastname
-                id
-                firstname
-                designation
-                department
-                createdAt
-              }
-              title
-              type
-              status
-              priority
-              points
-              id
-              description
-              createdAt
-              updatedAt
-              reportBy {
-                createdAt
-                department
-                designation
-                firstname
-                verified
-                updatedAt
-                lastname
-                id
-              }
-            }
-          }
           nextToken
         }
         createdAt

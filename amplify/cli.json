@@ -5,7 +5,9 @@
       "validatetypenamereservedwords": true,
       "useexperimentalpipelinedtransformer": false,
       "enableiterativegsiupdates": false,
-      "secondarykeyasgsi": true
+      "secondarykeyasgsi": true,
+      "securityEnhancementNotification": false,
+      "showFieldAuthNotification": false
     },
     "frontend-ios": {
       "enablexcodeintegration": true
@@ -22,5 +24,8 @@
     "project": {
       "overrides": true
     }
+  },
+  "debug": {
+    "shareProjectConfig": false
   }
 }
